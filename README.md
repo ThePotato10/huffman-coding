@@ -9,7 +9,7 @@ A complete Huffman Coding compression algorithm written in Python
 
 Huffman Coding is a lossless compression technique that works by assigning the endpoint of a tree to each letter in the text to be encoded.
 These letters are then represented by a string of 1's and 0's that dictate how you traverse the tree.
-This compression method is the most efficient way to encode large text files, but doesn't do well with smaller ones because the tree also has to be transmitted
+This compression method is the most efficient way to encode the individual bits in large text files, but doesn't do well with smaller ones because the tree also has to be transmitted
 
 I can't really explain it well, but this video does a much better job: https://www.youtube.com/watch?v=JsTptu56GM8
 
